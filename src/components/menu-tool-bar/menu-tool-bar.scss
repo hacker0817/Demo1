@@ -1,0 +1,35 @@
+menu-tool-bar {
+    ion-icon::before {
+        width: 2rem;
+        height: 2rem;
+    }
+    .grid,
+    .row,
+    .col {
+        padding: 0;
+        margin: 0;
+    }
+    .col label {
+        font-size: 12px;
+    }
+    .ion-ios-my-add:before {
+        content: '';
+        background: url(../assets/icon/work-order-top.png) no-repeat center / 100%;
+    }
+    .ion-ios-my-edit:before {
+        content: '';
+        background: url(../assets/icon/btnEdit.png) no-repeat center / 100%;
+    }
+    .ion-ios-my-save:before {
+        content: '';
+        background: url(../assets/icon/menu-icon2.png) no-repeat center / 100%;
+    }
+    .ion-ios-my-cancel:before {
+        content: '';
+        background: url(../assets/icon/menu-icon3.png) no-repeat center / 100%;
+    }
+    .ion-ios-my-more:before {
+        content: '';
+        background: url(../assets/icon/menu-icon4.png) no-repeat center / 100%;
+    }
+}

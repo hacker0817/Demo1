@@ -1,0 +1,14 @@
+<ion-toolbar color="primary">
+    <ion-grid text-left>
+        <ion-row>
+            <ion-col *ngFor="let button of btnMenu;let i = index" col-3>
+                <button ion-button> 
+                  <div> 
+                    <ion-icon [name]=button.name></ion-icon><br> 
+                    <label>{{button.text}}</label> 
+                  </div> 
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-toolbar>

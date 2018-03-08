@@ -1,0 +1,22 @@
+<ion-toolbar color="primary">
+    <ion-grid text-center>
+        <ion-row>
+            <ion-col *ngFor="let button of btnMenu;let i = index">
+                <button ion-button> 
+                  <div> 
+                    <ion-icon [name]=button.name></ion-icon><br> 
+                    <label>{{button.text}}</label> 
+                  </div> 
+                </button>
+            </ion-col>
+            <ion-col>
+                <button ion-button (click)="showMoreButton($event)"> 
+                  <div> 
+                    <ion-icon name="my-more"></ion-icon><br> 
+                    <label>更多</label> 
+                  </div> 
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-toolbar>
